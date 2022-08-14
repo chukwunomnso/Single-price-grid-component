@@ -1,0 +1,110 @@
+/* FEEL FREE TO TWEAK THIS CSS FILE TO A MORE CONCISE VERSION */
+
+/* MEDIA QUERIES */
+
+@media (min-width: 300px) {
+  body {
+    box-sizing: border-box;
+    color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+/* CONTAINER */
+.container {
+  display: grid;
+  justify-content: center;
+  margin: 5.5rem 20rem;
+}
+
+/* TOP LAYER: COLUMN */
+.column {
+  background-color: rgb(245, 245, 245);
+  padding: 2rem 5rem;
+  font-size: 1.2rem;
+}
+
+/* COLUMN CONTENT */
+.column h3 {
+  color: rgba(0, 179, 158, 0.958);
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+}
+.column h4 {
+  color: rgb(138, 43, 226);
+  font-size: 1.5rem;
+}
+.column p {
+  color: rgba(0, 179, 158, 0.958);
+  line-height: 2rem;
+  text-align: justify;
+}
+
+/* LOWER LAYER: ROW */
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25rem;
+}
+
+/* ROW CONTENT */
+
+/* FIRST ROW */
+.one {
+  background-color: rgb(138, 43, 226);
+  width: 50%;
+  padding: 2rem 5rem;
+}
+.one h3 {
+  font-size: 2rem;
+}
+.one h4 {
+  font-size: 1.5rem;
+  color: rgba(245, 245, 245, 0.785);
+  line-height: 0.5rem;
+  flex-wrap: wrap;
+}
+.price-tag {
+    display: flex;
+    flex-flow: row;
+    gap: 1rem;
+}
+.price {
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+.sub {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgba(245, 245, 245, 0.785);
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 179, 158, 0.958);
+    color: rgb(245, 245, 245);
+    border-style: none;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    width: 100%;
+    height: 4rem;
+}
+
+/* SECOND ROW */
+.two {
+  background-color: rgba(0, 179, 158, 0.958);
+  width: 60%;
+  padding: 3rem 2rem;
+}
+.two h3 {
+  padding-left: 2.2rem;
+  font-size: 1.5rem;
+}
+li {
+  list-style: none;
+  line-height: 0.8rem;
+}
